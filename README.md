@@ -15,7 +15,7 @@ Out of the twelve stocks listed, ten had negative returns; of those, two had neg
 ![All Stocks 2018](https://github.com/ltkdobbs/module02-challenge/blob/main/All_Stocks_2018.png)
 #### Refactoring
 In terms of refactoring, the difference in run speed is impressive; the refactored code is roughly 89.68% faster for the 2017 analysis and 88.48% faster for the 2018 analysis, taking less than one twentieth of a second to process either data set.
-By comparing Image 1.3 and 1.4, we can see the run time in seconds for pre-refactored and post-refactored runs of the 2017 data set below (see Images 1.3 and 1.4). The final run time pre-refactoring is 1.628906 seconds, which isn’t very long really. But in comparison, the refactored code runs in 0.1679688 seconds – less than half a second, while the original code took nearly two! We see a similar result; the pre-refactoring run time is 1.59375 seconds, versus the 0.1835938 seconds runtime post-refactoring (see Images 1.5 and 1.6)!
+By comparing Image 1.3 and 1.4, we can see the run time in seconds for pre-refactored and post-refactored runs of the 2017 data set below (see Images 1.3 and 1.4). The final run time pre-refactoring is 1.628906 seconds, which isn’t very long really. But in comparison, the refactored code runs in 0.1679688 seconds – less than half a second, while the original code took nearly two! We see a similar result in the analysis for 2018; the pre-refactoring run time is 1.59375 seconds, versus the 0.1835938 seconds runtime post-refactoring (see Images 1.5 and 1.6)!
 
 ###### Image 1.3 Module 02 Macro Time 2017 & Image 1.4 Refactored Macro Time 2017
 
@@ -26,11 +26,11 @@ By comparing Image 1.3 and 1.4, we can see the run time in seconds for pre-refac
 
 ![2018 Module Time]( https://github.com/ltkdobbs/module02-challenge/blob/main/Module_02_2018.png)
 ![2018 Refactored Time]( https://github.com/ltkdobbs/module02-challenge/blob/main/Challenge_Macro_2018.png)
+
 ## **Limitations**
 1)	The biggest limitation right now, is that the macro is coded to handle a total of 12 tickers. If the Client is interested in analyzing more, then the code will have to be edited to accommodate.
 2)	The current data sets don’t offer any concrete long-term trends for any of the stocks investigated. While easily rectified, it does give a skewed view of the data, and should be considered.
 ## **Summary**
-
 ### Advantages of Refactoring
 As a general rule, refactoring optimizes and condenses code into a more palatable and effective configuration. Ideally, it reduces clunky workarounds and patch jobs, usually by reevaluating code and finding more effective methods to achieve the same goal. Rearranging, exchanging, cutting, and general tweaking builds a better, more reliable code – a lofty but often achievable goal.
 By refining the code, specifically by introducing more flexible variables and multiple arrays, we also streamlined the functionality, not just in run-time (see Results) but also in reducing the among of tinkering necessary for alterations. Currently, the script runs for the twelve stock tickers the Client is investigating.
